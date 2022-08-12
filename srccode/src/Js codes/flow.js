@@ -9,11 +9,12 @@ const AppProvider=({children})=>{
     const [ctr,setCtr]=useState(0);
     const [page,setPage]=useState('home')
     const [start,setStart]=useState(1)
+
     const box=(name="",population=0,region="",capital="",flag="")=>{
         return(<button className="box" onClick={()=>{
             updatectr(1);
             changepage(name);
-        }}>
+            }}>
             <img src={flag} alt="" className="flag"/>
             <h3>{name}</h3>
             <p><em>Population:</em> {population}</p>
@@ -21,21 +22,25 @@ const AppProvider=({children})=>{
             {(capital)?<p><em>Capital:</em> {capital}</p>:<></>}
         </button>)
     }
+
     const changepage=(name)=>{
         setPage(name);
     }
+
     const updatectr=(value)=>{
         setCtr(value);
-        }
+    }
+
     const updstart=()=>{
         setStart(0)
     }
+
     return(
         <AppContext.Provider value={{data,ctr,page,changepage,updatectr,box,start,updstart}}>
         {children}
     </AppContext.Provider>
     )
-    }
+}
 
 export const useGlobalContext=()=>{
     return useContext(AppContext);

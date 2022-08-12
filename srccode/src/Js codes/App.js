@@ -7,17 +7,23 @@ const App = () => {
   const {ctr}=useGlobalContext()
   return (
     <>
-    <Header/>
-    {page(ctr)}
+
+      <Header/>
+      {page(ctr)}
+
     </>
   )
 }
 const page=(ctr)=>{
   if(ctr===0){
+
     return <Home/>
+
   }
   else{
+
     return <Country/>
+    
   }
 }
 export default App

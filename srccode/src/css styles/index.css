@@ -14,7 +14,7 @@
 @font-face{
   font-family: 'Nunito';
   font-weight:600;
-  src:local('fonts'),url('./fonts/NunitoSans-SemiBold.ttf') format('truetype');
+  src:local('fonts'),url('../fonts/NunitoSans-SemiBold.ttf') format('truetype');
 }
 html{
   font-size:62.5%;
