@@ -11,7 +11,7 @@ const AppProvider=({children})=>{
     const [start,setStart]=useState(1)
 
     const box=(name="",population=0,region="",capital="",flag="")=>{
-        return(<div className="box" onClick={()=>{
+        return(<button className="box" onClick={()=>{
             updatectr(1);
             changepage(name);
             }}>
@@ -24,7 +24,7 @@ const AppProvider=({children})=>{
                 {(capital)?<p><em>Capital:</em> {capital}</p>:<></>}
             </div>
     
-        </div>)
+        </button>)
     }
 
     const changepage=(name)=>{
