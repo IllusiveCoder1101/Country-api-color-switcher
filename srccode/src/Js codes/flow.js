@@ -15,11 +15,15 @@ const AppProvider=({children})=>{
             updatectr(1);
             changepage(name);
             }}>
-            <img src={flag} alt="" className="flag"/>
-            <h3>{name}</h3>
-            <p><em>Population:</em> {population}</p>
-            <p><em>Region:</em> {region}</p>
-            {(capital)?<p><em>Capital:</em> {capital}</p>:<></>}
+                
+            <div>
+                <img src={flag} alt="" className="flag"/>
+                <h3>{name}</h3>
+                <p><em>Population:</em> {population}</p>
+                <p><em>Region:</em> {region}</p>
+                {(capital)?<p><em>Capital:</em> {capital}</p>:<></>}
+            </div>
+    
         </button>)
     }
 
