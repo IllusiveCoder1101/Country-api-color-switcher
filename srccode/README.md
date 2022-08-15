@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Frontend Mentor - World API website solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [World API challenge on Frontend Mentor]. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
 
-### `npm start`
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  
+- [My process](#my-process)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  
+- [Author](#author)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Acknowledgments](#acknowledgments)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+### The challenge
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate the slideshow and view each painting in a lightbox
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: https://github.com/IllusiveCoder1101/Space-tourism-project-1
+- Live Site URL: [https://space-tourism-project1.netlify.app/](https://world-api-project3.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My process
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- ES6
+- Google fonts
+- [React](https://reactjs.org/) - JS library
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### What I learned
+ 
+ Throughout the entire building process of this project , I learnt a lot about using react,html and css in my code.Some important things which I learned were :-
+ - useEffect hook
+ - flex
+ && much more...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Continued development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I will continue to keep my codebase cleaner so that everybody can understand my code.
 
-### Code Splitting
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Codewithmosh](https://www.codewithmosh.com) - Mosh helped a lot to learn the absolute basics and advanced concepts of using html/css and javascript.
+- [John Smilga](https://github.com/john-smilga) - John helped me to learn the basics/fundamentals of react and now I can use React with comfortably.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+- Website - [[Sankalpa Sarkar](https://space-tourism-project1.netlify.app)](https://world-api-project3.netlify.app/)
+- Frontend Mentor - [@IllusiveCoder1101](https://www.frontendmentor.io/profile/IllusiveCoder1101)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+At the very end I would like to propose my gratitude to each and every person who helped me in building this massive project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-extras-
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I will be uploading a explanation video up on youtube very soon. So, everyone who's interested in knowing what went towards building this project could head over to 
+                                           Link:- https://www.youtube.com/channel/UC3n7NMBaUIyEtg-kgQ5U_zw
