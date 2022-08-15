@@ -17,7 +17,7 @@ const Country = () => {
           finaldata.map((country)=>{
             const {flag,name,nativeName,population,region,subregion,capital,topLevelDomain,currencies,languages,borders}=country;
             return(
-              <div className="dataCountry">
+              <div className="dataCountry" >
                 <img src={flag} alt="" className="flags"/>
                 <div>
                   <h1>{name}</h1>

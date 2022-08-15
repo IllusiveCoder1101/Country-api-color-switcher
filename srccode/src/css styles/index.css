@@ -46,8 +46,13 @@ h2,p{
 }
 .flag{
   width:100%;
-  object-fit:contain;
-  height:30vh;
+  object-fit:cover;
+  height:25vh;
+}
+.flagdesc{
+  width:110%;
+  margin-left:-0.25rem;
+  margin-top:-0.2rem;
 }
 .container{
   display:flex;
@@ -59,7 +64,7 @@ h2,p{
 }
 .box{
   font-family: Nunito;
-  width:80%;
+  width:35rem;
   height:55vh;
   overflow:hidden;
   color:var(--font-);
@@ -72,6 +77,9 @@ h2,p{
 }
 .box:hover{
   transform:scale(1.1);
+}
+.text{
+  margin-left:0.5rem;
 }
 .icons{
   position:relative;
@@ -124,9 +132,13 @@ h2,p{
   border:none;
   background:var(--elements-);
   color:var(--font-);
-  padding:1rem;
+  padding:1rem 1.5rem;
   margin-top:2rem;
+  transition:all linear 1s;
   margin-bottom:2rem;
+}
+.back:hover{
+  transform:scale(1.1);
 }
 .countries{
   display:flex;
@@ -144,19 +156,6 @@ em{
   display:grid;
   gap:2rem;
 }
-@media screen and (min-width:450px){
-  html{
-    font-size:100%;
-  }
-  .container{
-    flex-direction:row;
-    flex-wrap:wrap;
-
-  }
-  .box{
-    flex:50%;
-  }
-}
 @media screen and (min-width:1080px)  {
   html{
     font-size:130%;
@@ -167,9 +166,12 @@ em{
   h2{
     font-size:1rem;
   }
+  .container1{
+    width:20%;
+  }
   .flag{
-    width:110%;
-    height:30vh;
+    width:100%;
+    height:23vh;
   }
   .inputs{
     display:flex;
@@ -193,17 +195,22 @@ em{
     display:flex;
     flex-direction:row;
     justify-content: center;
+    gap:2rem;
     flex-wrap:wrap;
   }
   .box{
-    width:25%;
+    width:100%;
+    height:15rem;
   }
   .dataCountry{
+    padding-bottom: 5rem;
+    margin-left:1rem;
     flex-direction:row;
-    gap:2rem;
+    justify-content: space-evenly;
+    gap:1.5rem;
   }
   .flags{
-    flex:5rem;
+    flex:1rem;
     width:20rem;
     height:20rem;
     align-self:flex-start;

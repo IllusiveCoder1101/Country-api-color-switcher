@@ -54,13 +54,21 @@ const Home = () => {
        (start===0)?finaldata.map((country)=>{
         const {flag,name,population,region,capital}=country;
         return (
-            box(name,population,region,capital,flag)
+            <div key={flag} className="container1">
+             
+            {box(name,population,region,capital,flag)}
+        
+        </div>
         )
     }):data.map((country)=>{
         const {flag,name,population,region,capital}=country;
         
         return (
-            box(name,population,region,capital,flag)
+            <div key={flag} className="container1">
+             
+            {box(name,population,region,capital,flag)}
+        
+        </div>
         )
     })
    }
