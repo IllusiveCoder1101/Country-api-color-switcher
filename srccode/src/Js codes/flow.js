@@ -18,10 +18,10 @@ const AppProvider=({children})=>{
             <div key={population} className="flagdesc">
                 <img src={flag} alt="" className="flag"/>
                 <div className="text">
-                <h3>{name}</h3>
-                <p><em>Population:</em> {population}</p>
-                <p><em>Region:</em> {region}</p>
-                {(capital)?<p><em>Capital:</em> {capital}</p>:<></>}
+                    <h3>{name}</h3>
+                    <p><em>Population:</em> {population}</p>
+                    <p><em>Region:</em> {region}</p>
+                    {(capital)?<p><em>Capital:</em> {capital}</p>:<></>}
                 </div>
             </div>
         </button>)
