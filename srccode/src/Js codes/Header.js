@@ -23,10 +23,10 @@ const Header = () => {
       localStorage.setItem('theme',theme);
   },[theme])
   return (
-    <div className="nav">
+    <nav className="nav">
         <h1 className="logo">Where in the world?</h1>
         <button type="button" onClick={()=>themechanger()} className="btn"><BsMoon/> Dark Mode</button>
-    </div>
+    </nav>
   )
 }
 

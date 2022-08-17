@@ -15,7 +15,7 @@ const Home = () => {
         setStart(0)
     }
     return (
-    <>
+    <header>
     <div className="inputs">
     <form onSubmit={handleSubmit} className="search">
             <AiOutlineSearch style={{position:"relative",left:"2rem",top:"0rem"}}/>
@@ -73,7 +73,7 @@ const Home = () => {
     })
    }
     </div>
-    </>
+    </header>
   )
 }
 
